@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -103,6 +101,3 @@ if uploaded_t0:
         summary_tables(df_t0)
 else:
     st.info("נא להעלות לפחות קובץ T0 כדי להתחיל.")
-'''
-
-
